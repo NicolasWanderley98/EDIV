@@ -1,95 +1,102 @@
 Projeto do curso Pythonando
 Projeto web construído com **Django** para gerenciamento de despesas/divisão colaborativa de valores.
 
-## 📌 Sobre
+> 🛠️ Projeto com foco em **CRUD (Create, Read, Update, Delete)**, modelos Django, rotas, templates e lógica de negócios — ideal para quem está se aprofundando no desenvolvimento backend com Python.  
 
-EDIV é uma aplicação desenvolvida em **Python** usando o framework **Django**.  
-O projeto possui estrutura típica de um app web com:
+---
 
-- Backend em Django  
-- Templates HTML  
-- Arquivos estáticos de frontend  
-- Organização em apps  
+## 📌 Índice
 
-## 🧰 Tecnologias
+- [Sobre](#sobre)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Instalação](#instalação)
+- [Como usar](#como-usar)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-O projeto foi desenvolvido com as seguintes tecnologias:
+---
 
-- 🐍 Python  
-- 🌐 Django  
-- 📦 Arquivos estáticos (CSS/JS)  
-- HTML/Jinja para templates  
-- Git/GitHub para versionamento
+## 📖 Sobre
 
-## 📂 Estrutura do projeto
+Este repositório contém o código‑fonte do projeto **EDIV**, feito em **Django**, com estrutura de pastas organizada, templates e funcionalidades fundamentais para aplicações web. O projeto foi criado com fins educativos, integrando conceitos de backend web e boas práticas de desenvolvimento.
 
-O repositório contém:
+---
 
-├── apps/
+## 🚀 Funcionalidades
 
-│ └── ediv/
+✔️ Aplicação Django configurada  
+✔️ CRUD completo para um modelo principal  
+✔️ Estrutura de templates HTML  
+✔️ Configuração de rotas e app modular  
+✔️ Possibilidade de extensão para novos recursos  
 
-├── static/
+> 💡 Recursos adicionais podem ser adicionados conforme evolução do projeto!
 
-├── templates/
+---
 
-├── manage.py
+## 🧪 Tecnologias Utilizadas
 
-├── .gitignore
+Este projeto foi construído com as seguintes tecnologias:
 
+| Tecnologia | Uso |
 
-- **apps/ediv/** – app principal da aplicação  
-- **static/** – arquivos CSS, JS, imagens  
-- **templates/** – arquivos HTML  
-- **manage.py** – script de gerenciamento do Django
+|------------|-----|
 
-## 🚀 Instalação
+| Python     | Linguagem principal |
 
-Siga estes passos para rodar o projeto localmente:
+| Django     | Framework web |
 
-### 1. Clone o repositório
+| HTML       | Interface do usuário |
 
-```bash
-git clone https://github.com/NicolasWanderley98/EDIV.git
-cd EDIV
-2. Crie um ambiente virtual
+| CSS/JS     | Estilização e interatividade |
+
+---
+
+## 📥 Instalação
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/NicolasWanderley98/EDIV.git
+   cd EDIV
+Crie e ative um ambiente virtual
+
 python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-3. Instale as dependências
-pip install django
-(Adicione outras dependências quando seu requirements.txt existir — ideal criar um.)
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+Instale as dependências
 
-4. Rode as migrations
+pip install -r requirements.txt
+Execute as migrations
+
 python manage.py migrate
-5. Inicie o servidor
+Inicie o servidor
+
 python manage.py runserver
-Abra o navegador em http://127.0.0.1:8000.
+Abra o navegador e acesse http://127.0.0.1:8000 para visualizar o projeto rodando.
 
-🧪 Funcionalidades
-As funcionalidades atuais incluem (preencha com o que seu APP realmente faz):
+🚀 Uso
+Após instalar e rodar o servidor:
 
-📝 Cadastro de itens/valores
+🔹 Navegue pelas páginas disponíveis
+🔹 Crie ou atualize registros via interface web
+🔹 Explore os templates em templates/
+🔹 Entenda como as rotas em urls.py se conectam às views
 
-💰 Divisão de despesas
+🤝 Contribuição
+Contribuições são bem‑vindas! Se você quiser:
 
-📊 Exibição de resultados na interface
+Faça um fork do repositório
 
-🔐 Possível integração com usuários autenticados (se existir)
+Crie uma branch (git checkout -b minha-feature)
 
-🧩 Como contribuir
-Quer contribuir com o projeto? Siga estes passos:
+Commit suas mudanças (git commit -m "Minha nova feature")
 
-Faça um fork desse repositório
+Faça push para sua branch
 
-Crie uma branch com sua feature (git checkout -b minha-feature)
-
-Dê commit nas suas mudanças (git commit -m "feat: descrição da feature")
-
-Envie para o repositório (git push origin minha-feature)
-
-Abra um Pull Request
+Abra um Pull Request descrevendo suas melhorias
 
 📄 Licença
-Este projeto pode ser licenciado conforme sua escolha (ex.: MIT, GPL etc.).
-Adicione um arquivo LICENSE se ainda não existir.
+Este projeto está sob a licença MIT. Sinta‑se à vontade para usar, modificar e distribuir o código conforme sua necessidade.
